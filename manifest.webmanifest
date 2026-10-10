@@ -8,5 +8,11 @@
   "orientation": "landscape",
   "background_color": "#304835",
   "theme_color": "#304835",
-  "icons": [{"src":"index.apple-touch-icon.png","sizes":"180x180","type":"image/png"}]
+  "icons": [
+    {
+      "src": "index.apple-touch-icon.png?v=fe7d4060811f",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
 }
