@@ -1,0 +1,12 @@
+{
+  "name": "おひとりさまひとつまで",
+  "short_name": "ひとつまで",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#304835",
+  "theme_color": "#304835",
+  "icons": [{"src":"index.apple-touch-icon.png","sizes":"180x180","type":"image/png"}]
+}
