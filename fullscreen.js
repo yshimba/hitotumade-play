@@ -5,7 +5,8 @@
   button.textContent = '全画面';
   button.setAttribute('aria-label', 'ゲームを全画面にする');
   const style = document.createElement('style');
-  style.textContent = `#game-fullscreen { position:fixed; right:max(12px,env(safe-area-inset-right)); bottom:max(10px,env(safe-area-inset-bottom)); z-index:20; min-height:44px; min-width:76px; padding:8px 12px; border:1px solid #a6bfa7; border-radius:8px; background:#304835; color:#f1e7ce; font:16px sans-serif; touch-action:manipulation; }
+  style.textContent = `body[data-game="mobile"] #game-fullscreen { top:max(4px,env(safe-area-inset-top)); bottom:auto; }
+#game-fullscreen { position:fixed; right:max(12px,env(safe-area-inset-right)); bottom:max(10px,env(safe-area-inset-bottom)); z-index:20; min-height:44px; min-width:76px; padding:8px 12px; border:1px solid #a6bfa7; border-radius:8px; background:#304835; color:#f1e7ce; font:16px sans-serif; touch-action:manipulation; }
 #fullscreen-help { max-width:min(420px,85vw); padding:20px; border:1px solid #a6bfa7; border-radius:12px; color:#f1e7ce; background:#304835; font:16px/1.6 sans-serif; }
 #fullscreen-help::backdrop { background:#0009; }
 #fullscreen-help button { min-height:44px; padding:8px 18px; font:inherit; }`;
